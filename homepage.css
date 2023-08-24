@@ -1,0 +1,93 @@
+body{
+                
+    background-position: center;
+    animation-name: video;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+button{
+    margin: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 5vh;
+    width: 15vw;
+    border: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 1px 10px 0px;
+    
+    
+
+}
+button:hover{
+    background-color: rgb(9, 236, 9);
+    cursor: pointer;
+}
+.button1{
+    position: absolute;
+    bottom: 0px;
+    left: 2vw;
+
+}
+.button2{
+    position: absolute;
+    bottom: 0px;
+    left: 22.5vw;
+    
+    
+}
+.button3{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 20vh ;
+    
+    position: absolute;
+    top: 0px;
+    left: 20vw;
+    right: 20vw;
+    bottom: 30vh;
+    background-image: url(https://img.freepik.com/premium-photo/hamburger-fast-food-with-red-background_983969-57.jpg);
+    background-size: 60vw 60vh;
+    background-position: center;
+    border: solid white 5px;
+    text-align: center;   
+
+}
+.class{
+    
+    font-size: xx-large;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    right: 20%;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 2px 4px black ;
+    text-transform: uppercase;
+    color: white;
+    border: solid 4px ;
+    background-image: linear-gradient(to right,rgb(127, 3, 3),black);
+
+    
+   
+    
+
+    
+}
+@keyframes video{
+    from{
+        background-image: url(https://www.foodrepublic.com/img/gallery/get-more-sensation-out-of-spicy-foods-with-a-strategic-red-wine-pairing/l-intro-1685483896.jpg);
+    }
+    to{
+        background-image: url(https://cdn.winsightmedia.com/platform/files/public/2022-10/background/iamspace_hunched_over_young_skinny_man_sitting_in_big_empty_old_.jpeg?VersionId=QFrbXd337f0fJEVORCq4oTQYPwO1G1qN);
+    }
+}

@@ -1,0 +1,68 @@
+body{
+    align-items: center;
+    background-image: linear-gradient(orange,red);
+}
+.divparent{
+    background-image: linear-gradient(to right,red,orange);
+    border: solid;
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+    
+    height: 10%;
+    width: 100%;
+}
+
+h2{
+    border: solid black ;
+    text-align: center;
+    margin: 1%;
+    background-image: linear-gradient(to right,orange,white,black);
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Caveat', cursive;
+    
+}
+img{
+    
+    border: groove;
+    object-fit: fill;
+    
+
+    
+    height: 20vh;
+    width: 15vw;
+    
+    
+
+    
+
+}
+button{
+    background-color: rgb(219, 205, 20);
+    border: groove black;
+    width: 90%;
+    height: 98%;
+    object-fit: fill;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+
+    bottom: inherit(img pancakes Toast omlette Coffee sandwich);
+    
+   
+
+    
+    
+}
+button:hover{
+    background-color: greenyellow;
+    
+}
+button:active{
+    background-color:rgb(0, 255, 0);
+    
+}
+div{
+    align-items: center;
+}
